@@ -1,2 +1,2 @@
 LOCALHOST ### GET http://localhost:3000/contacts
-LOCALHOST ### GET http://localhost:3000/contacts/644b0b9bcc9ebbfdfdc5b006
+GET http://localhost:3000/contacts/644b0b9bcc9ebbfdfdc5b006
