@@ -1,20 +1,27 @@
-# GET http://localhost:3000/contacts
-# GET http://localhost:3000/contacts/644b0b9bcc9ebbfdfdc5b006
+###
+GET http://localhost:3000/contacts
+
+###
+GET http://localhost:3000/contacts/644b0b9bcc9ebbfdfdc5b006
 
 
 
+###
 POST https://web-services-mdu8.onrender.com/contacts HTTP/1.1
 content-type:application/json
 
 {"firstName":"billy", "lastName":"bob", "email":"billybob@gmail.com", "favoriteColor":"Blue", "birthday":"01/01/2000"}
 
 
-
-PUT https://web-services-mdu8.onrender.com/contacts/644b0b9bcc9ebbfdfdc5b007 HTTP/1.1
+###
+PUT https://web-services-mdu8.onrender.com/contacts/645538718d340da528d17bda HTTP/1.1
 content-type: application/json
 
-{"firstName":"joe", "lastName":"dimagio", "email":"joedimagio@gmail.com", "favoriteColor":"Green", "birthday":"01/03/1940"}
+{"firstName":"Abby", "lastName":"Kraude", "email":"abby.greennn@gmail.com", "favoriteColor":"Blue", "birthday":"07/26/2001"}
 
-
-
+###
 DELETE https://web-services-mdu8.onrender.com/contacts/644b0b9bcc9ebbfdfdc5b006 HTTP/1.1
+
+###
+DELETE http://localhost:3000/contacts/644b0b9bcc9ebbfdfdc5b006 HTTP/1.1
+
