@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Contacts Api'
   },
-  host: 'https://web-services-mdu8.onrender.com',
+  host: 'web-services-mdu8.onrender.com',
   schemes: ['https']
 };
 
