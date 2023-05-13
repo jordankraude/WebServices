@@ -8,7 +8,7 @@
   "host": "https://web-services-mdu8.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/contacts/": {
